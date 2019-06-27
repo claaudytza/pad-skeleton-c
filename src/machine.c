@@ -1,8 +1,8 @@
-#include <ijvm.h>
+#include "../include/ijvm.h"
 
 int init_ijvm(char *binary_file)
 {
-  // Implement loading of binary here
+  
   return -1;
 }
 
