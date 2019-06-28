@@ -12,13 +12,15 @@ int main(int argc, char **argv)
   {
     print_help();
     return 1;
-  }
+  };
 
   if (init_ijvm(argv[1]) < 0)
   {
       fprintf(stderr, "Couldn't load binary %s\n", argv[1]);
       return 1;
-  }
+  };
+
+  //init_ijvm(argv[1]);
 
   run();
 
